@@ -1,0 +1,38 @@
+.feed-item{
+    padding: 3px 0;
+    margin: 0;
+}
+.feed-item .col{
+    display: flex;
+    /* align-items: center; */
+}
+.feed-item .count{
+    font-size: .9rem;
+    color: #828282;
+    padding: 2px 1px;
+}
+.feed-item .vote-btn{
+    width: 25px;
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.feed-item .vote-btn img{
+    width: 100%;
+}
+.feed-item a.title{
+    color: #000;
+    text-decoration: none;
+    font-size: .9rem;
+}
+.feed-item .source{
+    font-size: .8rem;
+    color: #828282;
+}
+.feed-item .subtitle{
+    color: #828282;
+    font-size: .8rem;
+    cursor: pointer;
+}
